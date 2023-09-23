@@ -1,0 +1,66 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.main {
+  display: flex;
+  width: 100vw;
+  background-color: rgb(117, 117, 86);
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.section {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+.sec1 {
+  background-color: rgb(0, 0, 0);
+  padding: 10px 15px;
+}
+.btn1 {
+  color: black;
+  background-color: aliceblue;
+  outline: none;
+  border: 0px;
+  padding: 8px 12px;
+}
+.btn2 {
+  margin-bottom: 10px;
+}
+.sec2 {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0px;
+}
+.sec2 h1 {
+  margin-bottom: 10px;
+}
+.sec2 #result {
+  color: black;
+  margin-bottom: 10px;
+}
+.sec2 #guessNo {
+  font-size: 70px;
+  padding: 20px 50px;
+  background-color: black;
+  border-radius: 15px;
+}
+.sec3 {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px;
+}
+.sec3 #input {
+  padding: 10px;
+  color: black;
+  margin-bottom: 10px;
+}
